@@ -242,6 +242,7 @@ ReactDOM.render(<Demo/>,document.getElementById('test'))
 ## 2.4 组件的生命周期
 ### 2.4.1 旧生命周期（V16.8.4）
 ![](assets/16662751904295.jpg)
+![image](https://user-images.githubusercontent.com/47715787/222882563-447c9a0c-aa15-4b3f-a648-4b41151bf3b7.png)
 左面为挂载，右面为更新。
 componentWillReceiveProps在初始化时不被调用，父组件改变时才会调用。
 卸载组件：由ReactDOM.unmountComponentAtNode()触发。
